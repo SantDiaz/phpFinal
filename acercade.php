@@ -1,4 +1,8 @@
+<?php 
+
+?>
 <!DOCTYPE html>
+
 <html class="wide wow-animation" lang="en">
   <head>
     <title>Contacts</title>
@@ -34,7 +38,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-672x102.png" alt="" width="336" height="51"/></a>
+                    <!--Brand--><a class="brand" href="index.php"><img class="brand-logo-dark" src="images/logo-default-672x102.png" alt="" width="336" height="51"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-info rd-navbar-collapse">
@@ -49,9 +53,9 @@
               <div class="rd-navbar-main">
                 <div class="rd-navbar-nav-wrap">
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="inicio.html">INICIO</a>
+                    <li ><a class="rd-nav-link" href="index.php">INICIO</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="acercade.html">EQUIPO</a>
+                    <li class="rd-nav-item active" class="rd-nav-item"><a class="rd-nav-link" href="acercade.php">EQUIPO</a>
                       <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">IIEE</a>
                         </li>
@@ -75,9 +79,12 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="informacion.html">Informacion</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="informacion.php">Informacion</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contactos.html">Contactos</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contactos.php">Contactos</a>
+                    </li>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="login.php">Iniciar Sesion</a>
                     </li>
                   </ul>
                 </div>
@@ -273,10 +280,10 @@
             </div>
           </div>
         </div>
-      </section><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      </section>
       <footer class="section footer-classic">
         <div class="container">
-          <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Business Company</span><span>.&nbsp;</span><a href="#">Privacy Policy</a>. Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com/">Templatemonster</a></p>
+         
         </div>
       </footer>
     </div>

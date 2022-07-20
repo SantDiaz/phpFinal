@@ -1,0 +1,13 @@
+<?php
+include( 'conexion.php ');
+
+$con=conexion();
+
+$sql="SELECT * from form";
+
+
+$NOMBRE=$_POST['nombre'];
+$TELEFONO=$_POST['telefono'];
+$EMAIL=$_POST['email'];
+$MESSAGE=$_POST['telefono'];
+?>
